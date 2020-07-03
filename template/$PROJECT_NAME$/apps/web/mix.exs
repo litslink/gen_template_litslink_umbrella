@@ -48,6 +48,10 @@ defmodule Web.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"}
+
+      {:db,   in_umbrella: true},
+      {:auth, in_umbrella: true},
+      {:util, in_umbrella: true}
     ]
   end
 
