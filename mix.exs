@@ -10,7 +10,7 @@ defmodule GenTemplateLitslinkUmbrella.Mixfile do
   ]
 
   @maintainers ["Dmytro <dmytro_v@hey.com>"]
-  @github      "https://github.com/•••/#{@name}"
+  @github      "https://github.com/litslink/#{@name}"
 
   @description """
   A templated directory tree for well-structured umbrella project.
@@ -23,7 +23,7 @@ defmodule GenTemplateLitslinkUmbrella.Mixfile do
     [
       app:     @name,
       version: @version,
-      deps:    @deps,
+      deps:    @deps(),
       elixir:  "~> 1.4",
       package: package(),
       description:     @description,
