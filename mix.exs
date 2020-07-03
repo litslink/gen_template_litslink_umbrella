@@ -13,7 +13,7 @@ defmodule GenTemplateLitslinkUmbrella.Mixfile do
   @github      "https://github.com/•••/#{@name}"
 
   @description """
-  What your template does (less than 300 characters)
+  A templated directory tree for well-structured umbrella project.
   """
 
   # ------------------------------------------------------------
